@@ -1,0 +1,88 @@
+body {
+    background-color: cadetblue;
+    
+    font-family: Helvetica, sans-serif;
+}
+
+#pageAligner {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 50%;
+    height: auto;
+}
+
+#header {
+    background-color: skyblue;
+    
+    text-align: center;
+    padding-top: 10px;
+    
+    border: 2px black solid;   
+    box-shadow: 2px 2px;
+    
+    width: 100%;
+    height: 100%;
+}
+
+#sideMenu {
+    background-color: skyblue;
+    text-align: left;
+    
+    padding-left: 10px;
+    
+    border: 2px black solid;
+    box-shadow: 2px 2px;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+    width: 30%;
+    height: auto;
+    
+    float: left;
+    
+    position: relative;
+  
+}
+
+#content {
+    background-color: skyblue;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+    border: 2px black solid;
+    box-shadow: 2px 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: -4px;
+    
+    width: 65%;
+    height: auto;
+    
+    float: right;
+    
+}
+
+#mediaPositioner {
+    text-align: center;
+}
+
+#sideMenuListFormat {
+    position: relative;
+    left: -20px;
+    top: -10px;
+    width: 100%;
+}
+
+#customButton {
+    background-color: cadetblue;
+    border: white 2px solid;
+    color: white;
+    text-align: center;
+    margin: 4px 2px;
+    padding: 10px 30px;
+}
+
